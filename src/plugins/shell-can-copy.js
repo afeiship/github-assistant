@@ -14,5 +14,7 @@ export default () => {
     </div>
   `;
 
-  el.html(html);
+  el.each(item=>{
+    $(item).html(html);
+  });
 }
