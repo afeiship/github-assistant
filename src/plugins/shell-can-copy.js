@@ -1,7 +1,7 @@
 export default () => {
-  var el = $(".highlight.highlight-source-shell");
-  var shell = el.text();
-  var html = `
+  const el = $(".highlight.highlight-source-shell");
+  const shell = el.text();
+  const html = `
     <div class="input-group">
       <input type="text" class="form-control input-monospace input-sm" value="${shell}" disabled>
       <div class="input-group-button">
