@@ -1,3 +1,7 @@
+/**
+ * @description
+ * 将 shell 部分变成可以直接 copy 的
+ */
 export default () => {
   const el = $(".highlight.highlight-source-shell");
   const shell = el.text();
